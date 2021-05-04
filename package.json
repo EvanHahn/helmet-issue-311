@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start-inner": "node inner",
+    "start-outer": "node outer"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  }
+}
